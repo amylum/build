@@ -1,4 +1,4 @@
-FROM ghcr.io/dock0/build:20240209-9a5e7fb
+FROM ghcr.io/dock0/build:20240209-de46e24
 RUN pacman -S --needed --noconfirm namcap ruby
 RUN gem install --no-doc --no-user-install s3repo
 RUN useradd -m --uid 501 build
